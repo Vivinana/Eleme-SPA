@@ -1,4 +1,4 @@
-# sell
+# sells
 
 > sell app
 
