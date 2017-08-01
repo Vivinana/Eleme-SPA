@@ -325,7 +325,6 @@
         left: 32px
         bottom: 22px
         z-index: 200
-        background: #fff
         transition: all 0.4s cubic-bezier(0.49, -0.29, 0.75, 0.41)
         .inner
           width: 16px
