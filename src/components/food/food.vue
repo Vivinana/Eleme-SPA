@@ -90,12 +90,15 @@
         this.selectType = ALL;
         this.onlyContent = false;
         this.$nextTick(() => {
+          console.log(this.scroll);
+          console.log('123');
           if (!this.scroll) {
             this.scroll = new BScroll(this.$refs.food, {
               click: true
             });
           } else {
             this.scroll.refresh();
+            console.log(this.scroll);
           }
         });
       },

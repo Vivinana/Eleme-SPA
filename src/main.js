@@ -10,13 +10,11 @@ import seller from 'components/seller/seller';
 
 import 'common/stylus/index.styl';
 
-Vue.config.productionTip = false;
-
 Vue.use(VueRouter);
 Vue.use(VueResource);
 
 const routes = [
-  { path: '/', component: goods },
+  { path: '/', redirect: '/ratings' },
   { path: '/goods', component: goods },
   { path: '/ratings', component: ratings },
   { path: '/seller', component: seller }
